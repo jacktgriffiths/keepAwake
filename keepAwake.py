@@ -38,12 +38,10 @@ def moveMouse():
 	pyautogui.moveTo(newPosX,newPosY)
 	time.sleep(pause)
 
-#controller
-def run():
-	i = 1
-	while i < ticks:
-  	moveMouse()
-  	i += 1
-#run
-run()
+#run the program
+i = 1
+while i < ticks:
+  moveMouse()
+  i += 1
+
 
