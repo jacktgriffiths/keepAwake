@@ -8,7 +8,7 @@ mousePosX, mousePosY = pyautogui.position()
 newPosX = 0
 newPosY = 0
 pause = 1.0 #seconds
-ticks = 20 #total run time will be ticks*pause
+ticks = 20 #total run time will approx be ticks*pause
 
 #generate new position for mouse
 def getNewPos():
